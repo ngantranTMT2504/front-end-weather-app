@@ -14,6 +14,7 @@ async function changeWeather() {
 
     let data  = await fetch(apiURL).then(res => res.json())
     console.log(data)
+    console.log("hihi")
 }
 
 changeWeather()
